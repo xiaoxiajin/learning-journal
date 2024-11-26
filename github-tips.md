@@ -1,0 +1,1 @@
+- Pay attention to case sensitivity: File names and extensions must match exactly (e.g., .JPG ≠ .jpg). Otherwise, images that display correctly on the local Windows system may fail to load on GitHub.
