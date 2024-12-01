@@ -1,3 +1,7 @@
+# Dec 1, 2024
+
+with sensitive content, add the path to .gitignore in the root directory.
+
 # Nov 30, 2024
 
 1. Background of React and GitHub Pages Deployment:
