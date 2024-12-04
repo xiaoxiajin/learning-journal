@@ -1,6 +1,6 @@
 # Dec 4, 2024
 
-## Learning how to deploy Angular projects to GitHub
+## Learned how to deploy Angular projects to GitHub
 
 ### 1. Create a GitHub repository for your project.
 
