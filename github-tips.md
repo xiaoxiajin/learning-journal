@@ -20,11 +20,11 @@ Note: delete any ssr and prerender part in angular.json, otherwise this could go
 e.g.
 
 ```
-          "builder": "@angular-devkit/build-angular:browser", //  `browser` instead of `application`
+          "builder": "@angular-devkit/build-angular:browser", //  "browser" instead of "application"
           "options": {
             "outputPath": "dist/angular-todo",
             "index": "src/index.html",
-            "main": "src/main.ts",//main instead of browser ``
+            "main": "src/main.ts",//"main" instead of "browser"
 ```
 
 delete the following:
