@@ -17,10 +17,20 @@
 ### 4.`ng build --output-path docs --base-href /your_project_name/`
 
 Note: delete any ssr and prerender part in angular.json, otherwise this could go wrong.
-e.g.`"prerender": true,
-      "ssr": {
-         "entry": "src/server.ts"
-      }`
+e.g. `` json
+          "builder": "@angular-devkit/build-angular:browser", //  `browser` instead of `application`
+          "options": {
+            "outputPath": "dist/angular-todo",
+            "index": "src/index.html",
+            "main": "src/main.ts",//main instead of browser ``
+
+            delete the following:
+            ```json
+            "prerender": true,
+            "ssr": {
+               "entry": "src/server.ts"
+            }```
+
 
 ### 5. When the build is complete, make a copy of docs/index.html and name it docs/404.html.
 
