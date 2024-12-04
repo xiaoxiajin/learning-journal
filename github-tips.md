@@ -1,3 +1,27 @@
+# Dec 4, 2024
+
+## Learning how to deploy Angular projects to GitHub
+
+1. Create a GitHub repository for your project. 2.`git remote add origin https://github.com/your-username/your-project-name.git
+git branch -M main
+git push -u origin main`
+
+3.`git checkout -b gh-pages` 4.`ng build --output-path docs --base-href /your_project_name/`
+Note: delete any ssr and prerender part in angular.json, otherwise this could go wrong.
+e.g.`"prerender": true,
+      "ssr": {
+         "entry": "src/server.ts"
+      }`
+
+5. When the build is complete, make a copy of docs/index.html and name it docs/404.html.
+   Note: check the "base" in the index.html, make sure no local file path is included
+
+6. Commit your changes and push.
+7. On the GitHub project page->Settings->Pages gh-pages/docs->save
+8. Click on the GitHub Pages link at the top of the GitHub Pages section to see your deployed application. The format of the link is https://<user_name>.github.io/<project_name>/.
+
+ref:"https://v11.angular.cn/guide/deployment"
+
 # Dec 1, 2024
 
 with sensitive content, add the path to .gitignore in the root directory.
