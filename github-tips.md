@@ -1,3 +1,7 @@
+# Dec 5, 2024
+
+Learned how to apply a Flask backend to handle API requests, retrieve data, and respond to the frontend.
+
 # Dec 4, 2024
 
 ## Learned how to deploy Angular projects to GitHub
@@ -66,6 +70,13 @@ with sensitive content, add the path to .gitignore in the root directory.
    Learned about the role of Git branches and how to manage and switch between branches, particularly the difference between main and gh-pages branches.
 
    check branches using `git branch`, ensuring correctness of files and commits.
+
+   1. Open a terminal in the project folder and `git init`
+   2. `git add .`
+   3. `git commit -m "Initial commit"`
+   4. create repository
+   5. `git remote add origin https://github.com/your-username/exchange-rate-tracker.git`
+   6. `git push -u origin main`
 
 # Nov 26, 2024
 
