@@ -1,3 +1,23 @@
+# Dec 11, 2024
+
+## Clone part of repository from github
+
+### Clone
+
+```git
+git clone --depth 1 --filter=blob:none --sparse https://github.com/someone/example-repo.git
+
+cd example-repo
+
+git sparse-checkout set [the directory that I want to clone]
+
+git pull
+```
+
+### Delete
+
+delete .git first, then delete the folder like general folders
+
 # Dec 5, 2024
 
 Learned how to apply a Flask backend to handle API requests, retrieve data, and respond to the frontend.
